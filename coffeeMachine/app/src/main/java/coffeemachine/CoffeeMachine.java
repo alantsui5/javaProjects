@@ -63,13 +63,16 @@ public class CoffeeMachine {
                 System.out.println("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:");
                 System.out.print("> ");
                 switch (in.next()) {
-                    case "1" || 'espresso':
+                    case "1":
+                    case "espresso":
                         fulfillOrder(250,0,16,4);
                         break;
-                    case "2" || 'latte':
+                    case "2":
+                    case "latte":
                         fulfillOrder(350,75,20,7);
                         break;
-                    case "3" || 'capucino':
+                    case "3":
+                    case "capucino":
                         fulfillOrder(200,100,12,6);
                         break;
                     case "back":

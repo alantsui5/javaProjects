@@ -9,7 +9,6 @@ public class App {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println(new App().getGreeting());
         CoffeeMachine cm = new CoffeeMachine(400, 540, 120, 9, 550);
         cm.powerOnCoffeeMachine(in);
         in.close();
