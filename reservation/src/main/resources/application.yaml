@@ -1,0 +1,12 @@
+server:
+  port: 8081
+  error:
+    path: /error2
+spring:
+  thymeleaf:
+    cache: false
+    enabled: true 
+    prefix: classpath:/templates/
+    suffix: .html
+  application:
+    name: Book Reservation System
