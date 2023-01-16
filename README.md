@@ -2,7 +2,7 @@
 
 This Repository Contains 2 Projects, including
 1. Coffee Machine
-2. A Very Simple Book API
+2. A Book Reservation API
 
 Below will demo their interactions.
 
@@ -13,6 +13,3 @@ Below will demo their interactions.
 
 
 ## 2. Book Reservation System
-
-
-
