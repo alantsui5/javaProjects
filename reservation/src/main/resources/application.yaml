@@ -2,8 +2,6 @@ server:
   port: 8080
   error:
     path: /error2
-  servlet: 
-    context-path: /resource-server
 spring:
   thymeleaf:
     cache: false
@@ -12,9 +10,3 @@ spring:
     suffix: .html
   application:
     name: Book Reservation System
-  security:
-    oauth2:
-      resourceserver:
-        jwt:
-          issuer-uri: http://localhost:8083/auth/realms/reservations
-          jwk-set-uri: http://localhost:8083/auth/realms/reservations/protocol/openid-connect/certs
